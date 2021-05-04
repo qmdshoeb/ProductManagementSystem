@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e87f616fa1324350b6d4a974af7bce22" Name="Diagram1">
+        <EntityTypeShape EntityType="ProductManagementSystemModel.Cart" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductManagementSystemModel.Order" Width="1.5" PointX="6" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductManagementSystemModel.Payment" Width="1.5" PointX="8.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductManagementSystemModel.Product" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProductManagementSystemModel.UserMaster" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="ProductManagementSystemModel.FK__Cart__ProductId__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductManagementSystemModel.FK__Cart__UserId__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductManagementSystemModel.FK__Orders__ProductI__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductManagementSystemModel.FK__Orders__UserId__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductManagementSystemModel.FK__Payment__OrderId__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="ProductManagementSystemModel.FK__Payment__UserId__70DDC3D8" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
